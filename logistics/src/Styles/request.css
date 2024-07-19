@@ -1,0 +1,116 @@
+.wholeParcelPage {
+  box-sizing: border-box;
+}
+.requestheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one,
+.two,
+.three {
+  /* background-color: red; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.one {
+  color: rgba(0, 119, 182, 1);
+}
+.circle1,
+.circle2,
+.circle3 {
+  border-radius: 50%;
+  text-align: center;
+  width: 50%;
+  background-color: rgba(0, 119, 182, 1);
+  padding: 2px;
+  color: white;
+}
+.circle1 {
+  background-color: rgba(245, 245, 255, 1);
+}
+.circle1 p{
+  color: rgba(0, 119, 182, 1);
+}
+.progress-title p {
+  color: rgba(2, 2, 49, 1);
+}
+
+.hr-div {
+  /* background-color: green; */
+  width: 20%;
+  color: rgba(2, 2, 49, 1);
+}
+/* .theHr {
+  width: 160px;
+  color: rgba(2, 2, 49, 1);
+} */
+.bodyForms {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.pickup {
+ margin: 0 auto;
+  width: calc(80%/2);
+}
+.deliveryPoint1 {
+    margin: 0 auto;
+  width: calc(80%/2);
+}
+.input {
+  background-color: rgba(0, 119, 182, 0.11);
+  
+}
+.input::before{
+    border-color: rgba(0, 119, 182, 1);
+}
+label p {
+  font-weight: 600;
+  color: rgba(2, 2, 49, 1);
+}
+.asterisk {
+  color: red;
+}
+.proceed-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.proceedToNext{
+    background-color: rgba(0, 119, 182, 1);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.newDelivery{
+   margin-top: 30px;
+ 
+}
+
+/* request2 styles */
+.pickOff , .dropOff{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.pickupIndicator , .mapIndicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.location{
+    /* width: ; */
+    margin-left: 10px;
+}
